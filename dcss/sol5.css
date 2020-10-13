@@ -19,3 +19,25 @@ h2{
     font-weight: bold;
     font-style: italic;
   }
+
+  #highlight {
+    background-color: white;
+    border:3px solid lime;
+    font-size:23px;
+    font-weight: bold;
+    font-color:black;
+    font-style: italic;
+    float: center;
+    padding: 5px 30px 5px 30px;
+}
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+</style>
