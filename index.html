@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>examen5</title>
+	<link rel="stylesheet" type="text/css" href="dcss/sol5.css"/>
+	<script>
+		function comprobarclave(){
+			clave1= document.f1.clave1.value
+			clave2= document.f1.clave2.value
+
+			if(clave1== "wilson" && clave2== "gomez"){
+				alert("Los datos coinsiden...\n Bienvenido");
+				var href= "index2.html";
+				window.location=href;
+			}
+			else{
+				alert("datos erroneos...\n intentalo de nuevo.");
+				var href= "index.html";
+				window.location=href;
+			};
+
+		}
+	</script>
+</head>
+<body>
+<center><h1><u>Bienvenido viajero del tiempo</u></h1></center>
+<center>
+<font size=5>	
+<br>
+El nombre de usuario es: wilson
+<br>
+<br>
+La contraseña es: gomez
+</font>
+</center>
+<br>
+<center>
+	<font size=5>
+		<font color="red">
+
+<form action="" name="f1">
+	usuario:<input type="password" name="clave1" size="20">
+	<br>
+	<br>
+	clave:<input type="password" name="clave2" size="20">
+	<br>
+<br>
+<input type="button" value="comprobar" onClick="comprobarclave()">
+	</form>
+</font>
+</center>
+</body>
+</html>
