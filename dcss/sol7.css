@@ -1,6 +1,5 @@
-
- *{
-    background-color: turquoise;
+*{
+    background-color: khaki;
     box-sizing: border-box; 
   }
 
@@ -8,4 +7,3 @@ h2{
     margin-bottom: 30px;
     padding-top: 20px;
     text-align: center;
-}
